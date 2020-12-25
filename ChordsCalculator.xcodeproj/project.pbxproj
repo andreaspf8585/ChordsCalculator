@@ -11,6 +11,7 @@
 		E117DDC72594793B008AD2DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E117DDC62594793B008AD2DF /* ContentView.swift */; };
 		E117DDC92594793C008AD2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E117DDC82594793C008AD2DF /* Assets.xcassets */; };
 		E117DDCC2594793C008AD2DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E117DDCB2594793C008AD2DF /* Preview Assets.xcassets */; };
+		E146B8C22595C86B009FE7EB /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = E146B8C12595C86B009FE7EB /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E117DDC82594793C008AD2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E117DDCB2594793C008AD2DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E117DDCD2594793C008AD2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E146B8C12595C86B009FE7EB /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		E117DDC32594793B008AD2DF /* ChordsCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				E146B8C02595C840009FE7EB /* preview */,
 				E117DDC42594793B008AD2DF /* ChordsCalculatorApp.swift */,
 				E117DDC62594793B008AD2DF /* ContentView.swift */,
 				E117DDC82594793C008AD2DF /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				E117DDCB2594793C008AD2DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E146B8C02595C840009FE7EB /* preview */ = {
+			isa = PBXGroup;
+			children = (
+				E146B8C12595C86B009FE7EB /* screenshot.png */,
+			);
+			path = preview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E117DDCC2594793C008AD2DF /* Preview Assets.xcassets in Resources */,
+				E146B8C22595C86B009FE7EB /* screenshot.png in Resources */,
 				E117DDC92594793C008AD2DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
